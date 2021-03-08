@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>欢迎页</h1>
+<!--测试Rest风格-->
+<form action="/user" method="get">
+  <input type="submit" value="Get-提交">
+</form>
+<form action="/user" method="post">
+  <input type="submit" value="Post-提交">
+</form>
+<form action="/user" method="post">
+  <input name="_m" type="hidden" value="delete">
+  <input type="submit" value="Delete-提交">
+</form>
+<form action="/user" method="post">
+  <input name="_m" type="hidden" value="put">
+  <input type="submit" value="Put-提交">
+</form>
+</body>
+</html>

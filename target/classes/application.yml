@@ -1,7 +1,15 @@
-#spring:
-  #mvc:
-    #改变静态资源默认映射(静态资源访问前缀,默认/** 现在修改为/resources/**)
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  #改变静态资源默认映射(静态资源访问前缀,默认/** 现在修改为/resources/**)
     #static-path-pattern: /resources/**
-  #resources:
+  resources:
     #改变默认的静态资源路径（以前：/static (or /public or /resources or /META-INF/resources寻找，现在：/abc/）
-    #static-locations: [classpath:/abc/]
+    static-locations: [classpath:/abc/]
+    #禁用所有静态资源规则
+    #add-mappings: false
+    #配置静态资源缓存时间
+    #cache:
+      #period: 1100
