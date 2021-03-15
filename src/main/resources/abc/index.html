@@ -21,5 +21,16 @@
   <input name="_m" type="hidden" value="put">
   <input type="submit" value="Put-提交">
 </form>
+<ul>
+  <a href="car/1/owner/zhangsf?age=18&inter=篮球&inter=足球" >@PathVariable</a>
+</ul>
+<form action="/save"method="post">
+  <input type="text" name="username" placeholder="用户名"/>
+  <input type="password" name="password" placeholder="密码"/>
+  <input type="submit"value="提交">
+</form>
+<a href="/cars/sell;low=34;brand=byd,audi,yd">@MatrixVariable</a>
+<a href="/cars/sell;low=34;brand=byd;brand=audi;brand=yd">@MatrixVariable</a>
+<a href="/cars/bossId;age=24/empId;age=30">@MatrixVariable</a>
 </body>
 </html>
