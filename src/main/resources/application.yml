@@ -13,3 +13,8 @@ spring:
     #配置静态资源缓存时间
     #cache:
       #period: 1100
+  redis:
+    port: 6379
+    password: 277100
+    host: 192.168.63.129
+    database: 0
