@@ -1,0 +1,10 @@
+
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(Ê€êÿÿÿÿÿ8¡ÏŞœ…/
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(¸µ£Ç8¡ÏŞœ…/
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(íàÄ®ıÿÿÿÿ8¶¯œ…/
+X	java:S1251"<This block of commented-out lines of code should be removed.(ôÌïÒ8ØÆË…/
+L
+java:S3740"/Provide the parametrized type for this generic.(‚Ê«8—éøš…/
+X	java:S125"<This block of commented-out lines of code should be removed.(ù‰şğ8ÚÊïœ…/
+]	java:S125"<This block of commented-out lines of code should be removed.(Ğü×ìıÿÿÿÿ8ù‚Ë…/
